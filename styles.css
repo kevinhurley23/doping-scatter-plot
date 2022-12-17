@@ -1,0 +1,39 @@
+:root {
+  --background: #415239;
+}
+
+body {
+  background-color: var(--background);
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  height: 580px;
+  width: 900px;
+  background-color: white;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgb(50, 49, 49);
+  border-radius: 6px;
+}
+
+#title {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 32px;
+  text-align: center;
+}
+
+#tooltip {
+  z-index: 2;
+  position: absolute;
+  padding: 10px;
+  font-size: 1.1rem;
+  max-width: 300px;
+  background-color: var(--background);
+  line-height: 1.2;
+  box-shadow: 0 0 10px black;
+  color: white;
+}
